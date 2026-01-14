@@ -1,0 +1,12 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J1,J4";"PinHeader_1x01_P2.54mm_Vertical";2;"-";;;
+2;"J2,J3";"PinHeader_1x01_P2.54mm_Vertical";2;"+";;;
+3;"SW1,SW2,SW3";"SW_Cherry_MX_1.00u_PCB";3;"SW_Push";;;
+4;"U1";"COMM-SMD_RP2040-ZERO";1;"RP2040-ZERO";;;
+5;"U2";"OLED-TH_L27.8-W27.2-P2.54_C9900033791";1;"HS96L03W2C03";;;
+6;"R7,R4,R8,R6,R5,R3";"R_1206_3216Metric_Pad1.30x1.75mm_HandSolder";6;"10K";;;
+7;"Q2,Q1";"TO-252-2_L6.6-W6.1-P4.57-LS9.9-TL-CW";2;"IPD33CN10N G";;;
+8;"U3";"TH_2P-XT60PW-F";1;"XT60PW-F_C428722";;;
+9;"U4";"PWRM-TH_K78XX-500R3";1;"K7805-500R3_C909662";;;
+10;"SW9";"SW-TH_EC11XXXXXXXX";1;"EC11E09244BS";;;
+11;"R2,R1";"R_1206_3216Metric_Pad1.30x1.75mm_HandSolder";2;"100";;;

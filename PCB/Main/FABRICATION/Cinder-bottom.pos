@@ -1,0 +1,19 @@
+### Footprint positions - created on 2026-01-14T19:18:54+0000 ###
+### Printed by KiCad version 9.0.6
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                  Package                                           PosX       PosY       Rot  Side
+Q1        IPD33CN10N_G         TO-252-2_L6.6-W6.1-P4.57-LS9.9-TL-CW            8.4000    22.5200    0.0000  bottom
+Q2        IPD33CN10N_G         TO-252-2_L6.6-W6.1-P4.57-LS9.9-TL-CW           10.2000    13.1200    0.0000  bottom
+R1        100                  R_1206_3216Metric_Pad1.30x1.75mm_HandSolder   -26.0500    29.8700  -90.0000  bottom
+R2        100                  R_1206_3216Metric_Pad1.30x1.75mm_HandSolder   -26.0500    21.3700  -90.0000  bottom
+R3        10K                  R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     1.4500    15.3700    0.0000  bottom
+R4        10K                  R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     1.4500    17.8700    0.0000  bottom
+R5        10K                  R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     6.9500     3.6200  180.0000  bottom
+R6        10K                  R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     4.2000     1.2200  180.0000  bottom
+R7        10K                  R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     9.4500     6.1200  180.0000  bottom
+R8        10K                  R_1206_3216Metric_Pad1.30x1.75mm_HandSolder     2.4500    -1.1300  180.0000  bottom
+U1        RP2040-ZERO          COMM-SMD_RP2040-ZERO                          -14.8000    27.1200  180.0000  bottom
+U3        XT60PW-F_C428722     TH_2P-XT60PW-F                                 10.2000    37.2425  180.0000  bottom
+U4        K7805-500R3_C909662  PWRM-TH_K78XX-500R3                            20.0750    -9.3800  -90.0000  bottom
+## End
