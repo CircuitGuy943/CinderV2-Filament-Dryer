@@ -1,0 +1,1 @@
+1. Ensure that when stepper runs, heater is turned off/power reduced to ensure power is controlled.
