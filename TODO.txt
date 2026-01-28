@@ -1,5 +1,3 @@
 1. Ensure that when stepper runs, heater is turned off/power reduced to ensure power is controlled.
-2. Add orange strip
-3. Add raising lid
-4. Add filament pusher
-5. Add holders for filament spools that can vary in width to accommodate all spools
+3. Add filament pusher
+4. Make sure all tolerances are there for printing moving and sticking together parts
