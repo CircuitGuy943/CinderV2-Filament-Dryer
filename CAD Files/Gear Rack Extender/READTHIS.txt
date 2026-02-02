@@ -1,0 +1,1 @@
+This is just a quick export of the top component with a separate file for each body. Alot of them will be duplicates. So I would recommend opening the fusion file and seeing what you need (and how it goes together) and exporting them yourself.
