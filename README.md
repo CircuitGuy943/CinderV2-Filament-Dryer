@@ -4,7 +4,7 @@ The cinder filament dryer is a self managed ecosystem comprising of 2 45W heater
 
 Some CAD images:
 
-<img src="Pictures/fusion10.2(BACKGROUND).png" alt="CAD image" width="400"/> <img src="Pictures/Fusion Images/fusion10.2-transparent.png" alt="CAD image" width="400"/>
+<img src="Pictures/fusion10.2(BACKGROUND).png" alt="CAD image" width="400"/> <img src="Pictures/fusion10.2-transparent.png" alt="CAD image" width="400"/>
 
 ## Features:
 - It drys filament (duh)
