@@ -3564,6 +3564,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "EC11 pins are now 9 and 10"
+		(exclude_from_sim no)
+		(at 45.466 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96cb1d43-d386-4b4d-8baf-506ab40c71ed")
+	)
+	(text "EC11 pins are now used by the thermistors on the FLEX PCB HEATER\n"
+		(exclude_from_sim no)
+		(at 64.77 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b657c2d7-3088-4cdd-bdbf-5156936fa425")
+	)
 	(junction
 		(at 180.34 33.02)
 		(diameter 0)

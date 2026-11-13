@@ -1,0 +1,16 @@
+1. One of the orange fire accents crossed over a screw hole
+2. There is no support in the middle between the two sides, leading to inconsistencies
+3. PCB has no NTC Thermistor support
+
+
+
+EC1 is now GPIO10
+EC2 is now GPIO9
+
+Improvements:
+
+Big PETG pieces warped very easily and led to misaligned gluing. Solution would be to make it from lots of smaller pieces.
+
+Having 2 rolls in unit is unnecessary, could just have 1 unit hold 1 roll but make it modular and the units stackable so more units can be printed to accommodate more rolls. Even if each unit has its own control board, it could be simplified. But with a single power supply.
+
+dodgy pin on layer 4 of the extender

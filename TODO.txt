@@ -1,3 +1,0 @@
-1. Ensure that when stepper runs, heater is turned off/power reduced to ensure power is controlled.
-3. Add filament pusher
-4. Make sure all tolerances are there for printing moving and sticking together parts
