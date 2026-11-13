@@ -1,26 +1,19 @@
-<h1 align="center">Cinder Filament Dryer - A 90W filament dryer!</h1>
+# Cinder Filament Dryer - A 90W filament dryer!
 
-<p align="center">
-  <a href="https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/blob/main/LICENSE.md">
-    <img src="https://img.shields.io/github/license/CircuitGuy943/CinderV2-Filament-Dryer" alt="License">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://hackclub.com/">
-    <img src="https://img.shields.io/badge/Hack_Club-Funded-EC3750?style=flat&amp;logo=hackclub&amp;logoColor=EC3750" alt="Hack Club Funded">
-  </a>
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Status-In_Development-orange?style=flat" alt="Status: In Development">
-  &nbsp;&nbsp;
-  <a href="https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/commits/main/">
-    <img src="https://img.shields.io/github/last-commit/CircuitGuy943/CinderV2-Filament-Dryer?style=flat" alt="Last commit">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/stargazers">
-    <img src="https://img.shields.io/github/stars/CircuitGuy943/CinderV2-Filament-Dryer?style=flat&amp;color=yellow" alt="GitHub stars">
-  </a>
-</p>
+[![License](https://img.shields.io/github/license/CircuitGuy943/CinderV2-Filament-Dryer)](https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/blob/main/LICENSE.md)
+&nbsp;
+[![Hack Club Funded](https://img.shields.io/badge/Hack_Club-Funded-EC3750?style=flat&logo=hackclub&logoColor=EC3750)](https://hackclub.com/)
+&nbsp;
+![Status](https://img.shields.io/badge/Status-In_Development-orange?style=flat)
+&nbsp;
+[![Last commit](https://img.shields.io/github/last-commit/CircuitGuy943/CinderV2-Filament-Dryer?style=flat)](https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/commits/main/)
+&nbsp;
+[![GitHub stars](https://img.shields.io/github/stars/CircuitGuy943/CinderV2-Filament-Dryer?style=flat&color=yellow)](https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/stargazers)
+
+
 
 ## Contents 
+
 - [Features](#features)
 - [CAD Images](#cad-images)
 - [PCB](#pcb)
