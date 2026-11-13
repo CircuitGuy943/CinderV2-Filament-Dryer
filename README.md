@@ -1,4 +1,4 @@
-# Cinder Filament Dryer - A 90W filament dryer!
+# Cinder Filament Dryer - A filament dryer!
 
 [![License](https://img.shields.io/github/license/CircuitGuy943/CinderV2-Filament-Dryer)](https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/blob/main/LICENSE.md)
 &nbsp;
