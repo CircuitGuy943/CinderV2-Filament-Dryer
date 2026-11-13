@@ -1,35 +1,24 @@
 # Cinder Filament Dryer - A 90W filament dryer!
-
-<<<<<<< HEAD
-
-1. One of the orange fire accents crossed over a screw hole
-2. There is no support in the middle between the two sides, leading to inconsistencies
-3. PCB has no NTC Thermistor support
-
-
-EC1 is now GPIO10
-EC2 is now GPIO9
-
-Improvements:
-
-Big PETG pieces warped very easily and led to misaligned gluing. Solution would be to make it from lots of smaller pieces.
-
-Having 2 rolls in unit is unnecessary, could just have 1 unit hold 1 roll but make it modular and the units stackable so more units can be printed to accommodate more rolls. Even if each unit has its own control board, it could be simplified. But with a single power supply.
-
-dodgy pin on layer 4 of the extender
-
-<img src="Pictures/design.jpg" alt="CAD Image" width="400"/><img src="Pictures/design.jpg" alt="CAD Image" width="400"/>
-
-![alt text](Pictures/fusion10.2-transparent.png)
+[![License](https://img.shields.io/github/license/CircuitGuy943/CinderV2-Filament-Dryer)](https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/blob/main/LICENSE.md)
+&nbsp;
+[![Open Source](https://img.shields.io/badge/Open-Source-0088CC?style=flat)](https://github.com/CircuitGuy943/CinderV2-Filament-Dryer)
+&nbsp;
+[![Hack Club Funded](https://img.shields.io/badge/Hack_Club-Funded-EC3750?style=flat&logo=hackclub&logoColor=EC3750)](https://hackclub.com/)
+&nbsp;
+![Status](https://img.shields.io/badge/Status-In_Development-orange?style=flat)
+&nbsp;
+[![Last commit](https://img.shields.io/github/last-commit/CircuitGuy943/CinderV2-Filament-Dryer?style=flat)](https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/commits/main/)
+&nbsp;
+[![GitHub stars](https://img.shields.io/github/stars/CircuitGuy943/CinderV2-Filament-Dryer?style=flat&color=yellow)](https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/stargazers)
 
 
-<img width="1279" height="1230" alt="image" src="https://github.com/user-attachments/assets/c027bcdb-f685-4621-99b6-251781cf13e5" />
-
-=======
->>>>>>> 5db78b8d7608efd0d9cac6e6143bd7734fa95ae2
 The cinder filament dryer is a self managed ecosystem comprising of 2 45W heaters powered from a 90W+ power supply to provide the most heating power possible. In addition to that, there is also space for 3 possible fans with silica gel pouch to aid in the airflow and dryer performance. Equiped with an SHT40 module, you will always be 110% aware of exactly how long your filament will take to dry and at what temperature and with a 90W heater, I can guarantee that won't be long ;). Also comes in a cool, tilted design with a fancy flame aesthetic on the side, it also utilizes a smart locking system that adapts the arm of the spool holder to the width of the spool hole, this way, you can ensure the spool is free to spin properly and doesn't scratch the heating element. And if that isn't enough filament flow for you, there is also a dedicated servo driving system and filament extrusion rate feedback integration that automatically pushes out the strand of filament so that the printer, or you, don't have to worry about printing while drying. Comes with a 128x64 OLED, 3 buttons and an encoder for all your "control panel" needs because, we all love fancy control panels don't we? The frame itself is designed to be easy to print (albeit quite large) and assemble. And not to mention with the amazing aesthetic comes a super cool futuristic, pod like door system that lifts upwars on a big pin hinge to allow you to remove the spools or insert more. And obviously, we don't want tipping dryers so, on another pin hinge, we have a leg that can be bent backwards flush to the device when the dryer is hung on the wall or extended so that it literally doesn't fall over.
 
 Some CAD images:
+
+
+
+
 
 <img src="Pictures/fusion10.2(BACKGROUND).png" alt="CAD image" width="400"/> <img src="Pictures/fusion10.2-transparent.png" alt="CAD image" width="400"/>
 
