@@ -1,16 +1,35 @@
-# Cinder Filament Dryer - A 90W filament dryer!
-[![License](https://img.shields.io/github/license/CircuitGuy943/CinderV2-Filament-Dryer)](https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/blob/main/LICENSE.md)
-&nbsp;
-[![Open Source](https://img.shields.io/badge/Open-Source-0088CC?style=flat)](https://github.com/CircuitGuy943/CinderV2-Filament-Dryer)
-&nbsp;
-[![Hack Club Funded](https://img.shields.io/badge/Hack_Club-Funded-EC3750?style=flat&logo=hackclub&logoColor=EC3750)](https://hackclub.com/)
-&nbsp;
-![Status](https://img.shields.io/badge/Status-In_Development-orange?style=flat)
-&nbsp;
-[![Last commit](https://img.shields.io/github/last-commit/CircuitGuy943/CinderV2-Filament-Dryer?style=flat)](https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/commits/main/)
-&nbsp;
-[![GitHub stars](https://img.shields.io/github/stars/CircuitGuy943/CinderV2-Filament-Dryer?style=flat&color=yellow)](https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/stargazers)
+<h1 align="center">Cinder Filament Dryer - A 90W filament dryer!</h1>
 
+<p align="center">
+  <a href="https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/blob/main/LICENSE.md">
+    <img src="https://img.shields.io/github/license/CircuitGuy943/CinderV2-Filament-Dryer" alt="License">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://hackclub.com/">
+    <img src="https://img.shields.io/badge/Hack_Club-Funded-EC3750?style=flat&amp;logo=hackclub&amp;logoColor=EC3750" alt="Hack Club Funded">
+  </a>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Status-In_Development-orange?style=flat" alt="Status: In Development">
+  &nbsp;&nbsp;
+  <a href="https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/commits/main/">
+    <img src="https://img.shields.io/github/last-commit/CircuitGuy943/CinderV2-Filament-Dryer?style=flat" alt="Last commit">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/CircuitGuy943/CinderV2-Filament-Dryer/stargazers">
+    <img src="https://img.shields.io/github/stars/CircuitGuy943/CinderV2-Filament-Dryer?style=flat&amp;color=yellow" alt="GitHub stars">
+  </a>
+</p>
+
+## Contents 
+- [Features](#features)
+- [CAD Images](#cad-images)
+- [PCB](#pcb)
+- [Firmware Overview](#firmware-overview)
+- [Bill of Materials](#bill-of-materials)
+- [Assembly](#assembly)
+- [License](#license)
+
+## Features
 
 The cinder filament dryer is a self managed ecosystem comprising of 2 45W heaters powered from a 90W+ power supply to provide the most heating power possible. In addition to that, there is also space for 3 possible fans with silica gel pouch to aid in the airflow and dryer performance. Equiped with an SHT40 module, you will always be 110% aware of exactly how long your filament will take to dry and at what temperature and with a 90W heater, I can guarantee that won't be long ;). Also comes in a cool, tilted design with a fancy flame aesthetic on the side, it also utilizes a smart locking system that adapts the arm of the spool holder to the width of the spool hole, this way, you can ensure the spool is free to spin properly and doesn't scratch the heating element. And if that isn't enough filament flow for you, there is also a dedicated servo driving system and filament extrusion rate feedback integration that automatically pushes out the strand of filament so that the printer, or you, don't have to worry about printing while drying. Comes with a 128x64 OLED, 3 buttons and an encoder for all your "control panel" needs because, we all love fancy control panels don't we? The frame itself is designed to be easy to print (albeit quite large) and assemble. And not to mention with the amazing aesthetic comes a super cool futuristic, pod like door system that lifts upwars on a big pin hinge to allow you to remove the spools or insert more. And obviously, we don't want tipping dryers so, on another pin hinge, we have a leg that can be bent backwards flush to the device when the dryer is hung on the wall or extended so that it literally doesn't fall over.
 
