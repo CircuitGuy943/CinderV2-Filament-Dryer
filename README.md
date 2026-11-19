@@ -27,7 +27,12 @@
 16. Use of clip connectors
 17. Talk about how there is a space for silica gel packets but also about how the gaps in the cages may cause them to slip out or hit the fan blades.
 18. Talk about the new grills
-19. square images
+
+19. Find best 3d printer filament in terms of SHC and melting point.
+
+Code to-do-list:
+1. Add filament preset for temperature
+
 
 ## Contents 
 
@@ -48,26 +53,29 @@
 
 ## Overview
 
-<img align="right" src="Pictures/fusion10.2-transparent.png" alt="CAD image" width="400"/>
 
-(add two images, one exploded, one assembled)
+<img align="right" src="Pictures\Final Pictures\Clear\final3.png" alt="CAD image" width="400"/>
+<img align="right" src="Pictures\Journal Pictures\Clear\fusion10.2.png" alt="CAD image" width="350"/>
 
-The cinder filament dryer is a self managed ecosystem comprising of 2 45W heaters powered from a 90W+ power supply to provide the most heating power possible. In addition to that, there is also space for 3 possible fans with silica gel pouch to aid in the airflow and dryer performance. Equiped with an SHT40 module, you will always be 110% aware of exactly how long your filament will take to dry and at what temperature and with a 90W heater, I can guarantee that won't be long ;). Also comes in a cool, tilted design with a fancy flame aesthetic on the side, it also utilizes a smart locking system that adapts the arm of the spool holder to the width of the spool hole, this way, you can ensure the spool is free to spin properly and doesn't scratch the heating element. And if that isn't enough filament flow for you, there is also a dedicated servo driving system and filament extrusion rate feedback integration that automatically pushes out the strand of filament so that the printer, or you, don't have to worry about printing while drying. Comes with a 128x64 OLED, 3 buttons and an encoder for all your "control panel" needs because, we all love fancy control panels don't we? The frame itself is designed to be easy to print (albeit quite large) and assemble. And not to mention with the amazing aesthetic comes a super cool futuristic, pod like door system that lifts upwars on a big pin hinge to allow you to remove the spools or insert more. And obviously, we don't want tipping dryers so, on another pin hinge, we have a leg that can be bent backwards flush to the device when the dryer is hung on the wall or extended so that it literally doesn't fall over.
+
+Cinder is a complete filament dryer formed from 2 seperate 45W heaters. It features slots for 3 5020 fans with pockets for siliga gel pouches to aid in drying performance. Combines two NCP thermistors with an SHT40 module to accurately read and record internal temperature and humidity levels while maintaing safe levels below the recommended printing plastic temperature. The total 90W ensures a very quick and agile heating profile to quickly dry filament. By reducing heat up times and rapidily drying filament this ensures less energy is wasted through heat diffusion to the surroundings. The control panel also features a 128x64 I2C powered OLED as the main display with 3 buttons and a rotary encoder to code/adjust any inputs for material/temperatures.
+
+The build itself is designed to aesthetically pleasing with orange flame accents on the side. To make up for the instability of the elongated shape the design also includes an extendible leg at the back to support the model when free-standing. It also utilizies a special, seperately designed expanding rack design to adjust the spool holder dimensions, this in turn ensures that multiple spool sizes can be accomodated without risk of scraping against the heater flex-pcb. The lid of the model flips open upwards and back togethor with the front control panel on a pin hinge at the rear end. Designed to be easily printable with a frame split into seperate 210x210mm pieces to accomodate most 3D printers.
+
+There is also space for a custom stepper-motor powered filament extruder to aid filament out of the heater. This includes a filament extrusion rate feedback integration that automatically controls the filament push rate. However this was discontinued due to the difficulty of making such a system reliable.
 
 
 <br clear="all">
 
 ### Features
 
-- 90W heating power
-- OLED display control panel with 3 buttons, encoder and acrylic view panel
-- Retractable support system
-- Integrated PCB
-- Airflow with 3 5020 fans
+- I2C 128x64 OLED display
+- 2x NCP Thermistor support
+- SHT4x support
+- Fan support (3x 5020 slots, with PWM)
+- 90W max heating power support (with PWM)
 - Pouches for Silica Gel packets
-- Flame design aesthetics
-- Automatic locking system for holding the spool with an arm extendible in diameter <sup>TM</sup>
-- PWM control of fans and heater
+- Automatic locking system for holding spools with variable arm diameter
 
 ### Design Issues
 
@@ -76,8 +84,8 @@ The cinder filament dryer is a self managed ecosystem comprising of 2 45W heater
 1. One of the orange fire accents crossed over a screw hole
 2. There is no support in the middle between the two sides, leading to inconsistencies
 3. PCB has no NTC Thermistor support
-
-
+Brace on the middle to increase strength
+overcomplicated filament holder design
 
 EC1 is now GPIO10
 EC2 is now GPIO9
