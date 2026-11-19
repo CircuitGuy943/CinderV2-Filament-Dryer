@@ -55,7 +55,7 @@ Code to-do-list:
 
 
 <img align="right" src="Pictures\Final Pictures\Clear\final3.png" alt="CAD image" width="400"/>
-<img align="right" src="Pictures\Journal Pictures\Clear\fusion10.2.png" alt="CAD image" width="350"/>
+<img align="right" src="Pictures\Journal Pictures\Clear\fusion10.2.png" alt="CAD image" width="400"/>
 
 
 Cinder is a complete filament dryer formed from 2 seperate 45W heaters. It features slots for 3 5020 fans with pockets for siliga gel pouches to aid in drying performance. Combines two NCP thermistors with an SHT40 module to accurately read and record internal temperature and humidity levels while maintaing safe levels below the recommended printing plastic temperature. The total 90W ensures a very quick and agile heating profile to quickly dry filament. By reducing heat up times and rapidily drying filament this ensures less energy is wasted through heat diffusion to the surroundings. The control panel also features a 128x64 I2C powered OLED as the main display with 3 buttons and a rotary encoder to code/adjust any inputs for material/temperatures.
