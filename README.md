@@ -27,6 +27,7 @@
 16. Use of clip connectors
 17. Talk about how there is a space for silica gel packets but also about how the gaps in the cages may cause them to slip out or hit the fan blades.
 18. Talk about the new grills
+19. square images
 
 ## Contents 
 
