@@ -54,7 +54,6 @@ Code to-do-list:
 ## Overview
 
 
-<img align="right" src="Pictures\Final Pictures\Clear\final3.png" alt="CAD image" width="400"/>
 <img align="right" src="Pictures\Journal Pictures\Clear\fusion10.2.png" alt="CAD image" width="400"/>
 
 
@@ -67,7 +66,7 @@ There is also space for a custom stepper-motor powered filament extruder to aid 
 
 <br clear="all">
 
-### Features
+### Features:
 
 - I2C 128x64 OLED display
 - 2x NCP Thermistor support
@@ -77,7 +76,7 @@ There is also space for a custom stepper-motor powered filament extruder to aid 
 - Pouches for Silica Gel packets
 - Automatic locking system for holding spools with variable arm diameter
 
-### Design Issues
+### Design Issues and potential improvements:
 
 ///
 
@@ -100,15 +99,27 @@ dodgy pin on layer 4 of the extender
 
 ///
 
-### Firmware
-### PCB
-### Specification
+### Firmware:
+### PCB:
+
+<img align="right" src="Pictures\Journal Pictures\Clear\fusion10.2.png" alt="CAD image" width="400"/>
+
+***Note**: Most of these component choices are based on the lowest possible cost/assembly at home. Not efficiency*
+
+At the centre of the mainboard is the RP2040-Zero board used as the main microcontroller. 
 
 
+<br clear="all">
+
+### Specification:
+
+Power: 90W minimum, the heater and the PCB traces/MOSFETS are designed to comfortably run within those limits. So check the MOSFET specifications you are using if you want to modify power usage by changing the heaters.
+
+Voltage: The system is designed to run on my laptop charger, which supplies 19V, however as long as the 5V regulator and MOSFETS can run on the specified voltage, it could run higher. I also used 24V fans as that's closest to 19V. However BEWARE that running a higher voltage means you will have to modify the heater design AND check the traces/power specifications so the system can run the new power profile.
 
 ## Make your own!
 
-### Bill of materials
+### Bill of materials:
 
 
 - The actual print (alot, probably like 1-2kg+)
@@ -119,9 +130,9 @@ dodgy pin on layer 4 of the extender
 - MX keycaps (3)
 - Some M2 heated inserts and bolts to hold the whole thing togethor
 
-### Printing
-### Electronics & Wiring
-### Assembly
+### Printing:
+### Electronics & Wiring:
+### Assembly:
 
 
 ## Showcase
