@@ -105,7 +105,7 @@ dodgy pin on layer 4 of the extender
 
 ### PCB:
 
-<img align="right" src="Pictures\PCB\main_schematic3.png" alt="CAD image" width="400"/>
+<img  src="Pictures\PCB\main_schematic3.png" alt="CAD image" />
 
 ***Note**: Most of these component choices are based on the lowest possible cost/ease of assembly at home. Not efficiency. Feel free to modify the PCB*
 
