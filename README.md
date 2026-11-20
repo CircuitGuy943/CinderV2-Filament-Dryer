@@ -105,15 +105,23 @@ dodgy pin on layer 4 of the extender
 
 ### PCB:
 
-<img  src="Pictures\PCB\main_schematic3.png" alt="CAD image" />
+<br clear="all">
+<img src="Pictures\PCB\main_schematic3.png" alt="Image of main PCB Circuit" />
+<br clear="all">
+<br clear="all">
+
 
 ***Note**: Most of these component choices are based on the lowest possible cost/ease of assembly at home. Not efficiency. Feel free to modify the PCB*
 
 At the centre of the mainboard is the RP2040-Zero board used as the main microcontroller.
 
-For power, a main XT60 connector provides the 19V supply to the entire board and a seperate breakoff goes to a pre-made 5V regulator component (This is safer current wise than an LDO but cheaper than a custom buck converter). This, combined with GPIO 28/29 GPIO pins powering two IPD33CN10N MOSFETs forms the power connection for the heater and fans. GPIO 12-27 then connects the EC11 Encoder and the keyboard pushbuttons responsible for input. And last but not least, the I2C channel on GPIO 0/1 connects to the SHT4x and the OLED display.
+For power, a main XT60 connector provides the 19V supply to the entire board and a seperate breakoff goes to a pre-made 5V regulator component (This is safer current wise than an LDO but cheaper than a custom buck converter).
+
+This, combined with GPIO 28/29 GPIO pins powering two IPD33CN10N MOSFETs forms the power connection for the heater and fans. GPIO 12-27 then connects the EC11 Encoder and the keyboard pushbuttons responsible for input. And last but not least, the I2C channel on GPIO 0/1 connects to the SHT4x and the OLED display.
 
 There is also circuitry for a stepper motor chip included but this is *untested* so I would advice caution using it unless the circuit is tested.
+
+There is also a specially designed PCB 
 
 <br clear="all">
 
