@@ -100,14 +100,20 @@ dodgy pin on layer 4 of the extender
 ///
 
 ### Firmware:
+
+<br clear="all">
+
 ### PCB:
 
-<img align="right" src="Pictures\Journal Pictures\Clear\fusion10.2.png" alt="CAD image" width="400"/>
+<img align="right" src="Pictures\PCB\main_schematic3.png" alt="CAD image" width="400"/>
 
-***Note**: Most of these component choices are based on the lowest possible cost/assembly at home. Not efficiency*
+***Note**: Most of these component choices are based on the lowest possible cost/ease of assembly at home. Not efficiency. Feel free to modify the PCB*
 
-At the centre of the mainboard is the RP2040-Zero board used as the main microcontroller. 
+At the centre of the mainboard is the RP2040-Zero board used as the main microcontroller.
 
+For power, a main XT60 connector provides the 19V supply to the entire board and a seperate breakoff goes to a pre-made 5V regulator component (This is safer current wise than an LDO but cheaper than a custom buck converter). This, combined with GPIO 28/29 GPIO pins powering two IPD33CN10N MOSFETs forms the power connection for the heater and fans. GPIO 12-27 then connects the EC11 Encoder and the keyboard pushbuttons responsible for input. And last but not least, the I2C channel on GPIO 0/1 connects to the SHT4x and the OLED display.
+
+There is also circuitry for a stepper motor chip included but this is *untested* so I would advice caution using it unless the circuit is tested.
 
 <br clear="all">
 
@@ -116,6 +122,8 @@ At the centre of the mainboard is the RP2040-Zero board used as the main microco
 Power: 90W minimum, the heater and the PCB traces/MOSFETS are designed to comfortably run within those limits. So check the MOSFET specifications you are using if you want to modify power usage by changing the heaters.
 
 Voltage: The system is designed to run on my laptop charger, which supplies 19V, however as long as the 5V regulator and MOSFETS can run on the specified voltage, it could run higher. I also used 24V fans as that's closest to 19V. However BEWARE that running a higher voltage means you will have to modify the heater design AND check the traces/power specifications so the system can run the new power profile.
+
+<br clear="all">
 
 ## Make your own!
 
