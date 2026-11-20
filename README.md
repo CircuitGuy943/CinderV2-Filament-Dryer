@@ -40,7 +40,7 @@ Code to-do-list:
     - [Features](#features)
     - [Design Issues](#design-issues)
     - [Firmware](#firmware)
-    - [PCB](#pcb)
+    - [PCB Design](#pcb-design)
     - [Specification](#specification)
 - [Make your own!](#make-your-own)
     - [Bill of materials](#bill-of-materials)
@@ -103,12 +103,9 @@ dodgy pin on layer 4 of the extender
 
 <br clear="all">
 
-### PCB:
+### PCB Design:
 
-<br clear="all">
-<img src="Pictures\PCB\main_schematic3.png" alt="Image of main PCB Circuit" />
-<br clear="all">
-
+<img src="Pictures\PCB\main_schematic3.png" alt="Image of main PCB Circuit" width=520/> <img src="Pictures\PCB\flex_heater_schematic.png" alt="Image of main PCB Circuit" width=274/>
 
 ***Note**: Most of these component choices are based on the lowest possible cost/ease of assembly at home. Not efficiency. Feel free to modify the PCB*
 
